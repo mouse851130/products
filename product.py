@@ -21,3 +21,7 @@ print(products)
 print(product[0][0]) 
 #第一個0是表示第一個小清單
 #第二個0是表示小清單內的第一個索引(index)
+
+for p in products:
+	print(p[0], '的價格是：', p[1]) #for loop是把每個引索"一個一個拿出來"
+#所以打line26就會是把清單內所有東西都列出來，再包含價格
